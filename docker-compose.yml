@@ -29,8 +29,7 @@ services:
         POSTGRES_DB: db
         POSTGRES_PASSWORD: db_password
     volumes:
-      - './mypostgresql/data:/var/lib/postgresql/data'
-    
+      - './mypostgresql/data:/var/lib/postgresql/data'    
     networks:
         - network_app
     
