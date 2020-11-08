@@ -19,8 +19,6 @@ services:
         - '8000:8000'
     networks:
         - network_app
-    links: 
-        - db
     depends_on: 
         - "db"
 
@@ -35,8 +33,6 @@ services:
     
     networks:
         - network_app
-    ports:
-        - '5432:5432'
     
 
 
