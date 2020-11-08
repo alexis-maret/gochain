@@ -36,7 +36,7 @@ services:
     networks:
         - network_app
     ports:
-        - '6666:6666'
+        - '5432:5432'
     
 
 
